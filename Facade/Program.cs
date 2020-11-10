@@ -4,86 +4,108 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facade.Examples
+namespace Facade
 {
     // Mainapp test application 
     class MainApp
     {
         public static void Main()
         {
-            Facade facade = new Facade();
-            facade.MethodA();
-            facade.MethodB();
+            Operator op = new Operator();
+            op.BuildHouse();
+            op.RedoBathroom();
+            op.MakeRoomRedo();
             // Wait for user 
             Console.Read();
         }
     }
-
-
+    
     // "Subsystem ClassA" 
-    class SubSystemOne
+    class Electrician
     {
-        public void MethodOne()
+        public void SetWiring()
         {
-            Console.WriteLine(" SubSystemOne Method");
+            Console.WriteLine(" Set wiring");
         }
     }
 
     // Subsystem ClassB" 
-    class SubSystemTwo
+    class Plumber
     {
-        public void MethodTwo()
+        public void RepairBath()
         {
-            Console.WriteLine(" SubSystemTwo Method");
+            Console.WriteLine(" Repaired bath");
+        }
+
+        public void RepairHeating()
+        {
+            Console.WriteLine(" Repaired heating system");
         }
     }
 
 
     // Subsystem ClassC" 
-    class SubSystemThree
+    class Builder
     {
-        public void MethodThree()
+        public void BuildHouse()
         {
-            Console.WriteLine(" SubSystemThree Method");
+            Console.WriteLine(" Builded house");
         }
+
+        public void BringToPoint()
+        {
+            Console.WriteLine(" Bringed to point");
+        }
+        
     }
     // Subsystem ClassD" 
-    class SubSystemFour
+    class Architector
     {
-        public void MethodFour()
+        public void MakeDesign()
         {
-            Console.WriteLine(" SubSystemFour Method");
+            Console.WriteLine(" Made breathtaking design");
         }
     }
     // "Facade" 
-    class Facade
+    class Operator
     {
-        SubSystemOne one;
-        SubSystemTwo two;
-        SubSystemThree three;
-        SubSystemFour four;
+        Electrician electrician;
+        Plumber plumber;
+        Builder builder;
+        Architector architector;
 
-        public Facade()
+        public Operator()
         {
-            one = new SubSystemOne();
-            two = new SubSystemTwo();
-            three = new SubSystemThree();
-            four = new SubSystemFour();
+            electrician = new Electrician();
+            plumber = new Plumber();
+            builder = new Builder();
+            architector = new Architector();
         }
 
-        public void MethodA()
+        public void RedoBathroom()
         {
-            Console.WriteLine("\nMethodA() ---- ");
-            one.MethodOne();
-            two.MethodTwo();
-            four.MethodFour();
+            Console.WriteLine("\nRedoing bathroom ---- ");
+            electrician.SetWiring();
+            plumber.RepairBath();
         }
 
-        public void MethodB()
+        public void BuildHouse()
         {
-            Console.WriteLine("\nMethodB() ---- ");
-            two.MethodTwo();
-            three.MethodThree();
+            Console.WriteLine("\nBuilding house ---- ");
+            architector.MakeDesign();
+            builder.BuildHouse();
+            electrician.SetWiring();
+            plumber.RepairHeating();
+            builder.BringToPoint();
         }
+
+        public void MakeRoomRedo()
+        {
+            Console.WriteLine("\nRedoing room ---- ");
+            builder.BringToPoint();
+            electrician.SetWiring();
+            plumber.RepairHeating();
+        }
+        
     }
 }
