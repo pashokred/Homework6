@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ktgpJVThH4uZRnEMYE2dxEwZvgk8vhdvLVR57qfRMKzk1jgmEuKEG+1dhvDvW2xNGx1DWUbpKAi7HHR4oGuldg==",
+  "success": true,
+  "projectFilePath": "/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework6/ChristmasTree/ChristmasTree/ChristmasTree.csproj",
+  "expectedPackageFiles": [
+    "/home/pashok/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/pashok/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.0/microsoft.aspnetcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/pashok/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.0/microsoft.netcore.app.host.linux-x64.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

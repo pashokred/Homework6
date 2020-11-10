@@ -1,0 +1,13 @@
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree.deps.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree.runtimeconfig.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree.runtimeconfig.dev.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree.dll
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/bin/Debug/netcoreapp3.1/ChristmasTree.pdb
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.csprojAssemblyReference.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.AssemblyInfoInputs.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.AssemblyInfo.cs
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.csproj.CoreCompileInputs.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.dll
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.pdb
+/home/pashok/Documents/Univer/OOP/C# Homeworks/homework6/ChristmasTree/ChristmasTree/obj/Debug/netcoreapp3.1/ChristmasTree.genruntimeconfig.cache
